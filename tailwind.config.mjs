@@ -8,6 +8,7 @@ export default {
   theme: {
     extend: {
       colors: {
+        navBrown:"#33211d",
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
