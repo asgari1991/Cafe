@@ -1,0 +1,74 @@
+{
+    "menu":[
+        {
+"id":1,
+"title": "Black Coffee",
+"desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
+"price": 8,
+"img":"/Images/menu-1.jpg",
+"off":0},
+{"id":1,
+"title": "Chocolate Coffee",
+"desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
+"price": 7,
+"img":"/Images/menu-2.jpg",
+"off":0},
+{"id":1,
+"title": "Black Coffee",
+"desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
+"price": 8,
+"img":"/Images/menu-3.jpg",
+"off":0}],
+"services":[
+    {
+    "id":1,
+    "title":"Fastest Door Delivery",
+    "desc":"Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+    "img":"/Images/service-1.jpg",
+    "icon":"faTruck"
+},{
+    "id":2,
+    "title":"Fresh Coffee Beans",
+    "desc":"Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+    "img":"/Images/service-2.jpg",
+    "icon":"faCoffee"
+},{
+    "id":3,
+    "title":"Best Quality Coffee",
+    "desc":"Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+    "img":"/Images/service-3.jpg",
+    "icon":"faAward"
+},{
+    "id":4,
+    "title":"Online Table Booking",
+    "desc":"Sit lorem ipsum et diam elitr est dolor sed duo. Guberg sea et et lorem dolor sed est sit invidunt, dolore tempor diam ipsum takima erat tempor",
+    "img":"/Images/service-4.jpg",
+    "icon":"faTable"
+}],
+"newsLetters":[
+    {
+        "id":1,
+        "email":"mamad@gmail.com"
+
+    },
+    {
+        "id":2,
+        "email":"sahar@gmail.com"
+    }
+],
+"comment":[{
+    "id":1,
+    "username":"mohammadsgr",
+    "body": "perfect !",
+    "productID":1,
+    "score":5
+},
+{
+    "id":2,
+    "username":"sarmorai",
+    "body": "not bad !",
+    "productID":2,
+    "score":3
+}]
+
+}
