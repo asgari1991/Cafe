@@ -6,23 +6,57 @@
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
       "price": 8,
       "img": "/Images/menu-1.jpg",
-      "off": 0
+      "type":"cold",
+      "off": 0,
+      "score": 5
     },
     {
-      "id": 1,
+      "id": 2,
       "title": "Chocolate Coffee",
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
       "price": 7,
       "img": "/Images/menu-2.jpg",
-      "off": 0
+      "type":"hot",
+      "off": 0,
+      "score": 3.6
     },
     {
-      "id": 1,
-      "title": "Black Coffee",
+      "id": 3,
+      "title": "Tea",
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
-      "price": 8,
+      "price": 2,
       "img": "/Images/menu-3.jpg",
-      "off": 0
+      "type":"hot",
+      "off": 0,
+      "score": 4.3
+    },
+    {
+      "id": 4,
+      "title": "Milk Shake",
+      "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
+      "price": 4,
+      "img": "/Images/menu-3.jpg",
+      "type":"cold",
+      "off": 0,
+      "score": 4.3
+    }, {
+      "id": 5,
+      "title": "milkbanana",
+      "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
+      "price": 9,
+      "img": "/Images/menu-3.jpg",
+      "type":"cold",
+      "off": 0,
+      "score": 4.3
+    }, {
+      "id": 6,
+      "title": "Latte",
+      "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
+      "price": 2,
+      "img": "/Images/menu-3.jpg",
+      "type":"hot",
+      "off": 0,
+      "score": 4.3
     }
   ],
   "services": [
