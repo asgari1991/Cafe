@@ -110,17 +110,35 @@
   "comment": [
     {
       "id": 1,
-      "username": "mohammadsgr",
-      "body": "perfect !",
+      "username": "sarmorai",
+      "body": "Lorem ipsum odor amet, consectetuer adipiscing elit. Est auctor habitasse venenatis eros ultrices volutpat dapibus cras.",
       "productID": 1,
+      "profile":"/Images/testimonial-1.jpg",
       "score": 5
     },
     {
       "id": 2,
-      "username": "sarmorai",
+      "username": "mohammadsgr",
       "body": "not bad !",
       "productID": 2,
+      "profile":"/Images/testimonial-2.jpg",
       "score": 3
+    },
+    {
+      "id": 3,
+      "username": "metidgr",
+      "body": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
+      "productID": 2,
+      "profile":"/Images/testimonial-3.jpg",
+      "score": 4.5
+    },
+    {
+      "id": 4,
+      "username": "edward",
+      "body": "that was awful i have never saw sth like that !",
+      "productID": 3,
+      "profile":"/Images/testimonial-4.jpg",
+      "score": 1
     }
   ]
 }

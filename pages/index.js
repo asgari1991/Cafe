@@ -6,6 +6,7 @@ import Services from './components/templates/Index/Services'
 import Offer from './components/templates/Index/Offer'
 import Menu from './components/templates/Index/Menu'
 import Reservation from './components/templates/Index/Reservation'
+import Testimonials from './components/templates/Index/Testimonials'
 
 const Home = ({data}) => {
   return (
@@ -16,6 +17,7 @@ const Home = ({data}) => {
     <Offer/>
     <Menu menu={data.menu}/>
     <Reservation/>
+    <Testimonials comments={data.comments}/>
     </>
   )
 }
@@ -24,14 +26,17 @@ export async function getStaticProps() {
   const servicesData=await servicesRes.json()
   const menuRes=await fetch("http://localhost:4000/menu")
   const menuData=await menuRes.json()
+  const commentsRes=await fetch("http://localhost:4000/comment")
+  const commentData=await commentsRes.json()
   return {
     props:{
       data:{
         services:servicesData,
-        menu:menuData
+        menu:menuData,
+        comments:commentData
       }
     },
-    revalidate:60*60*12
+    revalidate:60*60*12 //second
   
   }
 }
