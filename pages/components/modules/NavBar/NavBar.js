@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "@/styles/Navbar.module.css";
+import Link from "next/link";
 const NavBar = () => {
   return (
     <div className={`container-fluid p-0 ${styles.nav_bar}`}>
@@ -24,15 +25,14 @@ const NavBar = () => {
           id="navbarCollapse"
         >
           <div className={`${styles.navbar_nav} ml-auto p-4`}>
-            <a
-              href="index.html"
-              className={`${styles.nav_link} ${styles.active_nav_link}`}
-            >
-              Home
-            </a>
-            <a href="about.html" className={`${styles.nav_link}`}>
-              About
-            </a>
+          <Link href="/" className={`${styles.nav_link} ${styles.active_nav_link}`}>
+            Home
+            </Link>
+           
+            <Link href="/about" className={`${styles.nav_link}`}>
+            About
+            </Link>
+          
             <a href="service.html" className={`${styles.nav_link}`}>
               Service
             </a>
