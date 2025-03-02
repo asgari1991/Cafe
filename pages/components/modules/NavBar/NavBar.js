@@ -35,10 +35,10 @@ const NavBar = () => {
           <Link href={"/services"} className={`${styles.nav_link}`}>
           Services
           </Link >
+          <Link href={'/menu'} className={`${styles.nav_link}`}>
+          Menu
+          </Link>
           
-            <a href="menu.html" className={`${styles.nav_link}`}>
-              Menu
-            </a>
             <div className={`${styles.dropdown}`}>
               <a
                 href="#"
