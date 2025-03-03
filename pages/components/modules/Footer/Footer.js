@@ -1,6 +1,12 @@
+
 import React from 'react'
+import '@fortawesome/fontawesome-svg-core'
+import { config } from '@fortawesome/fontawesome-svg-core'
+import {} from '@fortawesome/free-solid-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 
 const Footer = () => {
+    config.autoAddCss=false
   return (
     <div className="container-fluid footer text-white mt-5 pt-5 px-0 position-relative overlay-top">
         <div className="row mx-0 pt-5 px-sm-3 px-lg-5 mt-4">
@@ -14,7 +20,10 @@ const Footer = () => {
                 <h4 className="text-white text-uppercase mb-4" style={{letterSpacing: "3px"}}>Follow Us</h4>
                 <p>Amet elitr vero magna sed ipsum sit kasd sea elitr lorem rebum</p>
                 <div className="d-flex justify-content-start">
-                    <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-twitter"></i></a>
+                    <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#">
+                       
+                      
+                        <i className="fab fa-twitter"></i></a>
                     <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-facebook-f"></i></a>
                     <a className="btn btn-lg btn-outline-light btn-lg-square mr-2" href="#"><i className="fab fa-linkedin-in"></i></a>
                     <a className="btn btn-lg btn-outline-light btn-lg-square" href="#"><i className="fab fa-instagram"></i></a>

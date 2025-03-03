@@ -6,7 +6,7 @@
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
       "price": 8,
       "img": "/Images/menu-1.jpg",
-      "type":"cold",
+      "type": "cold",
       "off": 0,
       "score": 5
     },
@@ -16,7 +16,7 @@
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
       "price": 7,
       "img": "/Images/menu-2.jpg",
-      "type":"hot",
+      "type": "hot",
       "off": 0,
       "score": 3.6
     },
@@ -26,7 +26,7 @@
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
       "price": 2,
       "img": "/Images/menu-3.jpg",
-      "type":"hot",
+      "type": "hot",
       "off": 0,
       "score": 4.3
     },
@@ -36,25 +36,27 @@
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
       "price": 4,
       "img": "/Images/menu-2.jpg",
-      "type":"cold",
+      "type": "cold",
       "off": 0,
       "score": 4.3
-    }, {
+    },
+    {
       "id": 5,
       "title": "milkbanana",
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
       "price": 9,
       "img": "/Images/menu-3.jpg",
-      "type":"cold",
+      "type": "cold",
       "off": 0,
       "score": 4.3
-    }, {
+    },
+    {
       "id": 6,
       "title": "Latte",
       "desc": "Quickly and easily generate Lorem Ipsum placeholder text. Select the number of characters",
       "price": 2,
       "img": "/Images/menu-3.jpg",
-      "type":"hot",
+      "type": "hot",
       "off": 0,
       "score": 4.3
     }
@@ -113,7 +115,7 @@
       "username": "sarmorai",
       "body": "Lorem ipsum odor amet, consectetuer adipiscing elit. Est auctor habitasse venenatis eros ultrices volutpat dapibus cras.",
       "productID": 1,
-      "profile":"/Images/testimonial-1.jpg",
+      "profile": "/Images/testimonial-1.jpg",
       "score": 5
     },
     {
@@ -121,7 +123,7 @@
       "username": "mohammadsgr",
       "body": "not bad !",
       "productID": 2,
-      "profile":"/Images/testimonial-2.jpg",
+      "profile": "/Images/testimonial-2.jpg",
       "score": 3
     },
     {
@@ -129,7 +131,7 @@
       "username": "metidgr",
       "body": "Lorem ipsum odor amet, consectetuer adipiscing elit.",
       "productID": 2,
-      "profile":"/Images/testimonial-3.jpg",
+      "profile": "/Images/testimonial-3.jpg",
       "score": 4.5
     },
     {
@@ -137,8 +139,26 @@
       "username": "edward",
       "body": "that was awful i have never saw sth like that !",
       "productID": 3,
-      "profile":"/Images/testimonial-4.jpg",
+      "profile": "/Images/testimonial-4.jpg",
       "score": 1
+    }
+  ],
+  "reservations": [
+    {
+      "id": "d029",
+      "name": "Mohammad",
+      "email": "m.as@gmail.com",
+      "date": "12-03-2025",
+      "time": "12:45",
+      "person": "2"
+    },
+    {
+      "id": "69bd",
+      "name": "sahar",
+      "email": "sahar@gmail.com",
+      "date": "25-06-2025",
+      "time": "15:00",
+      "person": "3"
     }
   ]
 }

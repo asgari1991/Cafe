@@ -1,8 +1,13 @@
 import React from 'react'
+import PageHeader from '../components/modules/PageHeader/PageHeader'
+import ReservationDetails from '../components/templates/Reservation/ReservationDetails'
 
 const Reservation = () => {
   return (
-    <div>Reservation</div>
+    <>
+    <PageHeader route={"Reservation"}/>
+    <ReservationDetails/>
+    </>
   )
 }
 

@@ -50,12 +50,10 @@ const NavBar = () => {
               <div
                 className={`${styles.dropdown_menu} ${styles.text_capitalize}`}
               >
-                <a
-                  href="reservation.html"
-                  className={`${styles.dropdown_item}`}
-                >
-                  Reservation
-                </a>
+                <Link href={"/reservation"}  className={`${styles.dropdown_item}`}>
+                Reservation
+                </Link>
+              
                 <a
                   href="testimonial.html"
                   className={`${styles.dropdown_item}`}
