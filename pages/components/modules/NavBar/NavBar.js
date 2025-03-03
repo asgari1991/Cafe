@@ -59,9 +59,10 @@ const NavBar = () => {
                
               </div>
             </div>
-            <a href="contact.html" className={`${styles.nav_link}`}>
-              Contact
-            </a>
+            <Link href={'/contact'} className={`${styles.nav_link}`}>
+          Contact
+          </Link>
+            
           </div>
         </div>
       </nav>
