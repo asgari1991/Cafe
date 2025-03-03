@@ -53,13 +53,10 @@ const NavBar = () => {
                 <Link href={"/reservation"}  className={`${styles.dropdown_item}`}>
                 Reservation
                 </Link>
-              
-                <a
-                  href="testimonial.html"
-                  className={`${styles.dropdown_item}`}
-                >
-                  Testimonial
-                </a>
+              <Link href={"/testimonial"} className={`${styles.dropdown_item}`}>
+              Testimonial
+              </Link>
+               
               </div>
             </div>
             <a href="contact.html" className={`${styles.nav_link}`}>
