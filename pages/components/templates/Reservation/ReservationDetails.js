@@ -18,14 +18,14 @@ const ReservationDetails = () => {
         },
         body:JSON.stringify(newReservation)
       })
-      if (res.status===201){
+     
         setName("")
         setEmail("")
   setDate("")
   setTime("")
   setPerson("")
         alert("reserved successfully")
-      }
+      
       
     }
   

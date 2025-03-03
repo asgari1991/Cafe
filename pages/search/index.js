@@ -1,8 +1,11 @@
 import React from 'react'
+import PageHeader from '../components/modules/PageHeader/PageHeader'
 
 const Search = () => {
   return (
-    <div>Search</div>
+  <>
+  <PageHeader route={"Search"}/>
+  </>
   )
 }
 
