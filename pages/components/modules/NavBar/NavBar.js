@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import styles from "@/styles/Navbar.module.css";
 import Link from "next/link";
 import "@fortawesome/fontawesome-svg-core/styles.css";
@@ -10,6 +10,9 @@ import { useRouter } from "next/router";
 const NavBar = () => {
   const route=useRouter()
   const [search, setSearch] = useState("");
+  useEffect(()=>{
+    setSearch(route.query.q)
+  },[])
   const searchHandler=()=>{
 if (search.trim()) {
   route.push(`/search?q=${search}`)

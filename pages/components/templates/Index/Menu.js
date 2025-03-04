@@ -15,7 +15,7 @@ const Menu = ({menu}) => {
             <div className="col-lg-6">
                 <h1 className="mb-5">Hot Coffee</h1>
                 {menu.filter(item=>item.type==='hot').slice(0,3).map(item=>(
-                 <Card {...item}/>
+                 <Card {...item} key={item.id}/>
                 ))}
                 
                 
@@ -23,7 +23,7 @@ const Menu = ({menu}) => {
             <div className="col-lg-6">
                 <h1 className="mb-5">Cold Coffee</h1>
                 {menu.filter(item=>item.type==='cold').slice(0,3).map(item=>(
-                <Card {...item}/>
+                <Card {...item} key={item.id}/>
                 ))}
               
                
