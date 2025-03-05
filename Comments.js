@@ -10,7 +10,7 @@ import "swiper/css/pagination";
 // import required modules
 import { Pagination } from "swiper/modules";
 
-const Comments = ({ comments }) => {
+const Comments = ({ data }) => {
   return (
     <div className="container-fluid pt-5">
       <div className="container">
@@ -40,7 +40,7 @@ const Comments = ({ comments }) => {
             modules={[Pagination]}
             className={styles.swiper}
           >
-            {comments.slice(0, 6).map((comment) => (
+            {data.slice(0, 6).map((comment) => (
               <SwiperSlide className={styles.swiper_slide} key={comment.id}>
                 <div className="testimonial-item">
                   <div className="d-flex align-items-center mb-3">
